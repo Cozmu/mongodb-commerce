@@ -1,1 +1,1 @@
-db.produtos.countDocuments({$expr: {$eq: [{$size: "$ingredientes"}, 4]}});
+db.produtos.countDocuments({ $expr: { $eq: [{ $size: "$ingredientes" }, 4] } });
